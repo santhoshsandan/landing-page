@@ -323,16 +323,13 @@ h6,
 
 .facility-item:hover .facility-icon::before,
 .facility-item:hover .facility-text::before {
-    background: transparent;
-}
-
-.facility-item * {
-    transition: .5s;
+    background: rgba(255, 255, 255, .9);
 }
 
 .facility-item:hover * {
-    color: #FFFFFF !important;
+    color: initial !important;
 }
+
 
 
 /*** About ***/
